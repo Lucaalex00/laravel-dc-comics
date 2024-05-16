@@ -2,5 +2,5 @@
 
 @section('content')
     <h1>BENVENUTO</h1>
-    <a href="/comics"> COMICS </a>
+    <a href="{{ route('comics.index') }}"> COMICS </a>
 @endsection
